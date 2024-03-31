@@ -3,7 +3,7 @@ package ru.sergeypyzin.service;
 import com.google.gson.Gson;
 import ru.sergeypyzin.model.Person;
 
-public class ObjectToJSON {
+public class PersonToJSON {
 
     private static final Gson gson = new Gson();
 
