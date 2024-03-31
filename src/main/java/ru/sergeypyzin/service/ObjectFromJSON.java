@@ -5,7 +5,7 @@ import ru.sergeypyzin.model.Person;
 
 public class ObjectFromJSON{
 
-    static Gson gson = new Gson();
+    private final static Gson gson = new Gson();
 
 
     public static Person createFromJSON(String jsonString) {
