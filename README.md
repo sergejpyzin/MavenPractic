@@ -49,3 +49,23 @@ String jsonOutput = PersonToJSON.createJSONString(person);
 * Библиотека Apache Commons Lang для работы с методами toString(), hashCode() и equals().
 
 * Библиотека Gson для работы с JSON.
+
+``` xml
+  <dependencies>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.20</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.12.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.8</version>
+    </dependency>
+</dependencies>
+```
